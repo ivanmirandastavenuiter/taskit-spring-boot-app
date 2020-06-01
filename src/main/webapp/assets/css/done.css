@@ -1,0 +1,73 @@
+div.dv-lvl-3.content-body {
+    width: 100%;
+    margin: 40px auto;
+}
+    div.con-lvl-4.notes-container {
+        width: 100%;
+    }
+        div.con-lvl-5.notes-row {
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            margin: 0 auto 20px auto;
+        }
+            div.con-lvl-6.note-container {
+                display: flex;
+                flex-flow: column wrap;
+                width: 30%;
+            }
+        div.dv-lvl-5.create-note-header.create {
+            width: 30%;
+            margin: 10px 0 0 15px;
+            font-size: 1.5em;
+        }
+        div.dv-lvl-5.create-note-header.create span.span-toggled {
+        	color: #24b72c;
+        }
+        div.dv-lvl-5.create-note-header.create span.span-delete {
+        	color: #ff0000;
+        }
+            div.dv-lvl-7.note-header {
+                width: 100%;
+                height: 50px;
+                background: #f8f8f8;
+                border-radius: 10px 10px 0 0;
+                padding: 2px;
+            }
+                div.dv-lvl-8.note-header {
+                    font-size: 1.2em;
+                    margin: 9px 0 0 23px;
+                }
+            div.dv-lvl-7.note-body {
+                width: 100%; 
+                background: #f4db70;
+                border-radius: 0 0 10px 0;
+                padding: 15px;
+                text-align: justify;
+            }
+                div.con-lvl-8.date-container {
+                    height: 15px;
+                    margin: 20px;
+                    display: flex;
+                    justify-content: flex-end;
+                    font-size: small;
+                }
+            div.dv-lvl-7.note-actions {
+                padding: 5px;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                height: 50px;
+            }
+                div.dv-lvl-8.action-icon {
+                	display: flex;
+                	justify-content: center;
+                	align-items: center;
+                    width: 50px;
+                    height: 100%;
+                }
+                div.dv-lvl-8.action-icon i {
+                	cursor: pointer;
+                	font-size: 1.5em;
+                	color: #706b59
+                }

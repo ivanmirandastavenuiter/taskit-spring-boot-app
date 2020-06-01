@@ -1,0 +1,108 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Titillium Web', sans-serif;
+ }
+ div.dv-lvl-1.upper-block {
+     display: flex;
+     width: 100%;
+     height: 180px;
+ }
+ div.dv-lvl-1.lower-block {
+     display: flex;
+     width: 100%;
+ }
+ div.con-lvl-2.logo-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #f4db70;
+     width: 10%;
+     height: 100%;
+ }
+ div.con-lvl-2.header-container {
+     display: flex;
+     justify-content: space-between;
+     background: #f8f8f8;
+     width: 90%;
+     height: 100%
+ }
+     div.dv-lvl-3.greeting-header {
+         height: 35%;
+         width: 35%;
+     }
+         div.dv-lvl-3.greeting-header p {
+             padding: 8% 0 0 8%;
+             font-size: 1.5em;
+         }
+     div.dv-lvl-3.logout-box {
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         width: 30%;
+         height: 20%;
+     }
+         div.dv-lvl-4.yes-no-box {
+             display: flex;
+             width: 0;
+             font-size: .8em;
+             padding-top: 10%;
+             margin-right: 3%;
+             transition: width .2s linear;
+             overflow: hidden;
+         }
+         div.dv-lvl-4.logout-text-box {
+             margin: 10% 15% 0 0;
+             cursor: pointer;
+         }
+             div.dv-lvl-5.yes {
+                 background: lightgreen;
+                 width: 50%;
+                 padding: 5%;
+                 text-align: center;
+                 cursor: pointer;
+             }
+             div.dv-lvl-5.no {
+                 background: lightcoral;
+                 width: 50%;
+                 padding: 5%;
+                 text-align: center;
+                 cursor: pointer;
+             }
+         
+         
+ div.dv-lvl-3.logo-item {
+     color: #fff;
+     font-weight: bold;
+ }
+ div.con-lvl-2.left-toolbar-container {
+     background: #b1afaf;
+     width: 10%;
+     min-height: 85vh;
+ }
+ div.con-lvl-2.main-body-container {
+     background: #f8e8a1;
+     width: 90%;
+ }
+     div.dv-lvl-3.sections {
+         display: flex;
+         height: 55px;
+         margin: 10px 0 0 10px;
+     }
+         div.dv-lvl-4.section-item {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 8%;
+             height: 75.5%;
+             background: #706b59;
+             color: #e0c31e;
+             margin: 5px;
+             border-radius: 10px 10px 0 0;
+             cursor: pointer;
+         }
+         a, a:hover, a:visited {
+         	color: inherit !important;
+         	text-decoration: none !important;
+         	text-transform: none !important;
+         }

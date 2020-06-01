@@ -1,0 +1,107 @@
+div.dv-lvl-3.content-body {
+    width: 100%;
+    margin: 40px auto;
+}
+    div.con-lvl-4.create-form-container {
+        display: flex;
+        width: 100%;
+        margin: 10px 0 0 15px;
+    }
+   div.con-lvl-4.create-form-container form {
+        display: flex;
+        width: 100%;
+    }
+    div.con-lvl-4.headers-container {
+        display: flex;
+    }
+        div.con-lvl-5.note-container {
+            display: flex;
+            flex-flow: column wrap;
+            width: 30%;
+        }
+        div.dv-lvl-5.create-note-header.create {
+            width: 30%;
+            margin: 10px 0 0 15px;
+            font-size: 1.5em;
+        }
+        div.dv-lvl-5.create-note-header.create span {
+        	color: #24b72c;
+        }
+        div.dv-lvl-5.create-note-header.title {
+            width: 30%;
+            margin: 10px 0 0 15px;
+            font-size: 1.5em;
+        }     
+        div.dv-lvl-5.note-header {
+            width: 100%;
+            height: 50px;
+            background: #f8f8f8;
+            border-radius: 10px 10px 0 0;
+            padding: 2px;
+        }
+            div.dv-lvl-6.note-header {
+                font-size: 1.2em;
+                margin: 9px 0 0 23px;
+            }
+        div.dv-lvl-5.note-body {
+            width: 100%; 
+            height: 300px;
+            background: #f4db70;
+            border-radius: 0 0 10px 0;
+        }
+            div.dv-lvl-6.note-body {
+                height: 100%;
+            }
+                div.dv-lvl-7.form-input-container {
+                    width: 100%;
+                    height: 100%;
+                }
+                    textarea.tx-lvl-8.text-input-textarea {
+                        width: 100%;
+                        height: 100%;
+                        background: transparent;
+                        border: none;
+                        padding: 5px;
+                    }
+                    textarea.tx-lvl-8.text-input-textarea:focus {
+                        border: none;
+                        outline: none;
+                    }
+        div.con-lvl-5.title-container {
+            display: flex;
+            align-items: center;
+            width: 300px;
+            height: 350px;
+            background: #e8e8e8;
+            margin-left: 15px;
+        }
+            div.dv-lvl-6.form-input-container {
+                width: 90%;
+                margin: 0 auto;
+                padding: 15px;
+                text-align: center;
+            }
+            div.dv-lvl-6.form-input-container button {
+                margin-top: 20px;
+            }
+                input.in-lvl-7.title-input {
+                    border: none;
+                }
+                input.in-lvl-7.title-input:focus {
+                    padding: 5px;
+                    border: none;
+                    outline: none;
+                }
+                div.form-input-box-error {
+			        padding: 5px;
+			        color: #ff0000;
+			        margin: -5% 0 2% 0;
+			        font-weight: bold;
+			    }
+			    div.div-lvl-7.form-input-box-error {
+			    	margin-top: 20px;
+			    }
+			    div.div-lvl-7.form-input-box-error.text-error {
+			    	margin-top: 10px;
+			    	text-align: center;
+			    }

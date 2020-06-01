@@ -1,0 +1,65 @@
+ div.dv-lvl-3.content-body {
+     width: 100%;
+     margin: 40px auto;
+ }
+	 	div.dv-lvl-5.create-note-header.create {
+            width: 30%;
+            margin: 10px 0 0 15px;
+            font-size: 1.5em;
+        }
+     div.dv-lvl-4.note-item {
+         display: flex;
+         width: 60%;
+         margin: 10px 0 0 15px;
+     }
+         div.con-lvl-5.note-title-container {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             width: 20%;
+             background: #f8f8f8;
+         }
+         div.con-lvl-5.note-text-container {
+             width: 80%;
+             background: #e8e8e8;
+             height: 100%;
+         }
+             div.dv-lvl-6.note-status {
+                 width: 100%;
+                 height: 15%;
+                 display: flex;
+                 justify-content: flex-end;
+                 
+             }
+                 div.dv-lvl-7.note-status-indicator {
+                     width: 20px;
+                     height: 20px;
+                     border-radius: 50%;
+                     margin: 1.5% 1.5% 0 0;
+                 }
+                 div.dv-lvl-7.note-status-indicator.done {
+                     background: #4aef4a; 
+                 }
+                 div.dv-lvl-7.note-status-indicator.undone {
+                     background: #ec5151; 
+                 }
+                 div.dv-lvl-7.note-done-indicator {
+                 	color: #4aef4a;
+                 	margin: 1.2% 1% 0 0;
+                 }
+                 div.dv-lvl-7.note-undone-indicator {
+                 	color: #ec5151;
+                 	margin: 1.2% 1% 0 0;
+                 }
+             div.dv-lvl-6.text-content {
+                 width: 90%;
+                 padding: 10px;
+                 text-align: justify;
+             }
+             div.con-lvl-6.date-container {
+                 height: 15%;
+                 margin: 20px;
+                 display: flex;
+                 justify-content: flex-end;
+                 font-size: small;
+             }
