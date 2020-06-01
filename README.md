@@ -17,6 +17,15 @@ An application for jobs and tasks organisation
 3. Set up an instance of MySQL server and load the file taskit.sql
 4. Start a browser window on http://localhost:8080/taskit/
 
+## Structure
+
+* Controllers
+* Services
+* Repositories
+* Entities
+* Utils
+* Boot/Config
+
 ## How it works
 
 First, the login. It counts with typical validations:
